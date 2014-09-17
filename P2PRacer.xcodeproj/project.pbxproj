@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87D6150E18F3494F00758AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150D18F3494F00758AE2 /* Foundation.framework */; };
+		87D6151018F3494F00758AE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150F18F3494F00758AE2 /* CoreGraphics.framework */; };
+		87D6151218F3494F00758AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6151118F3494F00758AE2 /* UIKit.framework */; };
+		87D6151418F3494F00758AE2 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6151318F3494F00758AE2 /* SpriteKit.framework */; };
+		87D6151A18F3494F00758AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D6151818F3494F00758AE2 /* InfoPlist.strings */; };
+		87D6151C18F3494F00758AE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6151B18F3494F00758AE2 /* main.m */; };
+		87D6152018F3494F00758AE2 /* RAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6151F18F3494F00758AE2 /* RAAppDelegate.m */; };
+		87D6152318F3494F00758AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152118F3494F00758AE2 /* Main.storyboard */; };
+		87D6152618F3494F00758AE2 /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6152518F3494F00758AE2 /* RAViewController.m */; };
+		87D6152918F3494F00758AE2 /* RAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6152818F3494F00758AE2 /* RAMyScene.m */; };
+		87D6152B18F3494F00758AE2 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152A18F3494F00758AE2 /* Spaceship.png */; };
+		87D6152D18F3494F00758AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152C18F3494F00758AE2 /* Images.xcassets */; };
+		87D6153418F3495000758AE2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6153318F3495000758AE2 /* XCTest.framework */; };
+		87D6153518F3495000758AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150D18F3494F00758AE2 /* Foundation.framework */; };
+		87D6153618F3495000758AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6151118F3494F00758AE2 /* UIKit.framework */; };
+		87D6153E18F3495000758AE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D6153C18F3495000758AE2 /* InfoPlist.strings */; };
+		87D6154018F3495000758AE2 /* P2PRacerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6153F18F3495000758AE2 /* P2PRacerTests.m */; };
+		87D6154C18F34A3400758AE2 /* RALobbyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6154B18F34A3400758AE2 /* RALobbyVC.m */; };
+		87D6155018F34A9000758AE2 /* RAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6154F18F34A9000758AE2 /* RAConstants.m */; };
+		87D6155418F34AE900758AE2 /* RANetworkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6155318F34AE900758AE2 /* RANetworkingManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87D6153718F3495000758AE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87D6150218F3494F00758AE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D6150918F3494F00758AE2;
+			remoteInfo = P2PRacer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87D6150A18F3494F00758AE2 /* P2PRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D6150D18F3494F00758AE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87D6150F18F3494F00758AE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87D6151118F3494F00758AE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87D6151318F3494F00758AE2 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		87D6151718F3494F00758AE2 /* P2PRacer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "P2PRacer-Info.plist"; sourceTree = "<group>"; };
+		87D6151918F3494F00758AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D6151B18F3494F00758AE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87D6151D18F3494F00758AE2 /* P2PRacer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "P2PRacer-Prefix.pch"; sourceTree = "<group>"; };
+		87D6151E18F3494F00758AE2 /* RAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAAppDelegate.h; sourceTree = "<group>"; };
+		87D6151F18F3494F00758AE2 /* RAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAAppDelegate.m; sourceTree = "<group>"; };
+		87D6152218F3494F00758AE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87D6152418F3494F00758AE2 /* RAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAViewController.h; sourceTree = "<group>"; };
+		87D6152518F3494F00758AE2 /* RAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAViewController.m; sourceTree = "<group>"; };
+		87D6152718F3494F00758AE2 /* RAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMyScene.h; sourceTree = "<group>"; };
+		87D6152818F3494F00758AE2 /* RAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMyScene.m; sourceTree = "<group>"; };
+		87D6152A18F3494F00758AE2 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		87D6152C18F3494F00758AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87D6153218F3495000758AE2 /* P2PRacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PRacerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D6153318F3495000758AE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		87D6153B18F3495000758AE2 /* P2PRacerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "P2PRacerTests-Info.plist"; sourceTree = "<group>"; };
+		87D6153D18F3495000758AE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D6153F18F3495000758AE2 /* P2PRacerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = P2PRacerTests.m; sourceTree = "<group>"; };
+		87D6154A18F34A3400758AE2 /* RALobbyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALobbyVC.h; sourceTree = "<group>"; };
+		87D6154B18F34A3400758AE2 /* RALobbyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RALobbyVC.m; sourceTree = "<group>"; };
+		87D6154E18F34A9000758AE2 /* RAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAConstants.h; sourceTree = "<group>"; };
+		87D6154F18F34A9000758AE2 /* RAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RAConstants.m; sourceTree = "<group>"; };
+		87D6155218F34AE900758AE2 /* RANetworkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RANetworkingManager.h; sourceTree = "<group>"; };
+		87D6155318F34AE900758AE2 /* RANetworkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RANetworkingManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87D6150718F3494F00758AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6151018F3494F00758AE2 /* CoreGraphics.framework in Frameworks */,
+				87D6151218F3494F00758AE2 /* UIKit.framework in Frameworks */,
+				87D6151418F3494F00758AE2 /* SpriteKit.framework in Frameworks */,
+				87D6150E18F3494F00758AE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D6152F18F3495000758AE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6153418F3495000758AE2 /* XCTest.framework in Frameworks */,
+				87D6153618F3495000758AE2 /* UIKit.framework in Frameworks */,
+				87D6153518F3495000758AE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87D6150118F3494F00758AE2 = {
+			isa = PBXGroup;
+			children = (
+				87D6151518F3494F00758AE2 /* P2PRacer */,
+				87D6153918F3495000758AE2 /* P2PRacerTests */,
+				87D6150C18F3494F00758AE2 /* Frameworks */,
+				87D6150B18F3494F00758AE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87D6150B18F3494F00758AE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87D6150A18F3494F00758AE2 /* P2PRacer.app */,
+				87D6153218F3495000758AE2 /* P2PRacerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87D6150C18F3494F00758AE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87D6150D18F3494F00758AE2 /* Foundation.framework */,
+				87D6150F18F3494F00758AE2 /* CoreGraphics.framework */,
+				87D6151118F3494F00758AE2 /* UIKit.framework */,
+				87D6151318F3494F00758AE2 /* SpriteKit.framework */,
+				87D6153318F3495000758AE2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87D6151518F3494F00758AE2 /* P2PRacer */ = {
+			isa = PBXGroup;
+			children = (
+				87D6155518F34AF400758AE2 /* Main */,
+				87D6155118F34AC200758AE2 /* Networking */,
+				87D6154D18F34A7200758AE2 /* Utils */,
+				87D6154918F34A2100758AE2 /* Lobby */,
+				87D6151E18F3494F00758AE2 /* RAAppDelegate.h */,
+				87D6151F18F3494F00758AE2 /* RAAppDelegate.m */,
+				87D6152C18F3494F00758AE2 /* Images.xcassets */,
+				87D6151618F3494F00758AE2 /* Supporting Files */,
+			);
+			path = P2PRacer;
+			sourceTree = "<group>";
+		};
+		87D6151618F3494F00758AE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D6151718F3494F00758AE2 /* P2PRacer-Info.plist */,
+				87D6151818F3494F00758AE2 /* InfoPlist.strings */,
+				87D6151B18F3494F00758AE2 /* main.m */,
+				87D6151D18F3494F00758AE2 /* P2PRacer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87D6153918F3495000758AE2 /* P2PRacerTests */ = {
+			isa = PBXGroup;
+			children = (
+				87D6153F18F3495000758AE2 /* P2PRacerTests.m */,
+				87D6153A18F3495000758AE2 /* Supporting Files */,
+			);
+			path = P2PRacerTests;
+			sourceTree = "<group>";
+		};
+		87D6153A18F3495000758AE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D6153B18F3495000758AE2 /* P2PRacerTests-Info.plist */,
+				87D6153C18F3495000758AE2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87D6154918F34A2100758AE2 /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				87D6154A18F34A3400758AE2 /* RALobbyVC.h */,
+				87D6154B18F34A3400758AE2 /* RALobbyVC.m */,
+			);
+			name = Lobby;
+			sourceTree = "<group>";
+		};
+		87D6154D18F34A7200758AE2 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				87D6154E18F34A9000758AE2 /* RAConstants.h */,
+				87D6154F18F34A9000758AE2 /* RAConstants.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		87D6155118F34AC200758AE2 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				87D6155218F34AE900758AE2 /* RANetworkingManager.h */,
+				87D6155318F34AE900758AE2 /* RANetworkingManager.m */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		87D6155518F34AF400758AE2 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				87D6152118F3494F00758AE2 /* Main.storyboard */,
+				87D6152418F3494F00758AE2 /* RAViewController.h */,
+				87D6152518F3494F00758AE2 /* RAViewController.m */,
+				87D6152718F3494F00758AE2 /* RAMyScene.h */,
+				87D6152818F3494F00758AE2 /* RAMyScene.m */,
+				87D6152A18F3494F00758AE2 /* Spaceship.png */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87D6150918F3494F00758AE2 /* P2PRacer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D6154318F3495000758AE2 /* Build configuration list for PBXNativeTarget "P2PRacer" */;
+			buildPhases = (
+				87D6150618F3494F00758AE2 /* Sources */,
+				87D6150718F3494F00758AE2 /* Frameworks */,
+				87D6150818F3494F00758AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2PRacer;
+			productName = P2PRacer;
+			productReference = 87D6150A18F3494F00758AE2 /* P2PRacer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87D6153118F3495000758AE2 /* P2PRacerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D6154618F3495000758AE2 /* Build configuration list for PBXNativeTarget "P2PRacerTests" */;
+			buildPhases = (
+				87D6152E18F3495000758AE2 /* Sources */,
+				87D6152F18F3495000758AE2 /* Frameworks */,
+				87D6153018F3495000758AE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D6153818F3495000758AE2 /* PBXTargetDependency */,
+			);
+			name = P2PRacerTests;
+			productName = P2PRacerTests;
+			productReference = 87D6153218F3495000758AE2 /* P2PRacerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87D6150218F3494F00758AE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = heltsikkert;
+				TargetAttributes = {
+					87D6153118F3495000758AE2 = {
+						TestTargetID = 87D6150918F3494F00758AE2;
+					};
+				};
+			};
+			buildConfigurationList = 87D6150518F3494F00758AE2 /* Build configuration list for PBXProject "P2PRacer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87D6150118F3494F00758AE2;
+			productRefGroup = 87D6150B18F3494F00758AE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87D6150918F3494F00758AE2 /* P2PRacer */,
+				87D6153118F3495000758AE2 /* P2PRacerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87D6150818F3494F00758AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6151A18F3494F00758AE2 /* InfoPlist.strings in Resources */,
+				87D6152D18F3494F00758AE2 /* Images.xcassets in Resources */,
+				87D6152B18F3494F00758AE2 /* Spaceship.png in Resources */,
+				87D6152318F3494F00758AE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D6153018F3495000758AE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6153E18F3495000758AE2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87D6150618F3494F00758AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6155018F34A9000758AE2 /* RAConstants.m in Sources */,
+				87D6151C18F3494F00758AE2 /* main.m in Sources */,
+				87D6152918F3494F00758AE2 /* RAMyScene.m in Sources */,
+				87D6152018F3494F00758AE2 /* RAAppDelegate.m in Sources */,
+				87D6155418F34AE900758AE2 /* RANetworkingManager.m in Sources */,
+				87D6154C18F34A3400758AE2 /* RALobbyVC.m in Sources */,
+				87D6152618F3494F00758AE2 /* RAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D6152E18F3495000758AE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D6154018F3495000758AE2 /* P2PRacerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87D6153818F3495000758AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D6150918F3494F00758AE2 /* P2PRacer */;
+			targetProxy = 87D6153718F3495000758AE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87D6151818F3494F00758AE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D6151918F3494F00758AE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87D6152118F3494F00758AE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D6152218F3494F00758AE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87D6153C18F3495000758AE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D6153D18F3495000758AE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87D6154118F3495000758AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87D6154218F3495000758AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87D6154418F3495000758AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "P2PRacer/P2PRacer-Prefix.pch";
+				INFOPLIST_FILE = "P2PRacer/P2PRacer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87D6154518F3495000758AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "P2PRacer/P2PRacer-Prefix.pch";
+				INFOPLIST_FILE = "P2PRacer/P2PRacer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87D6154718F3495000758AE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/P2PRacer.app/P2PRacer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "P2PRacer/P2PRacer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "P2PRacerTests/P2PRacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87D6154818F3495000758AE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/P2PRacer.app/P2PRacer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "P2PRacer/P2PRacer-Prefix.pch";
+				INFOPLIST_FILE = "P2PRacerTests/P2PRacerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87D6150518F3494F00758AE2 /* Build configuration list for PBXProject "P2PRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D6154118F3495000758AE2 /* Debug */,
+				87D6154218F3495000758AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D6154318F3495000758AE2 /* Build configuration list for PBXNativeTarget "P2PRacer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D6154418F3495000758AE2 /* Debug */,
+				87D6154518F3495000758AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87D6154618F3495000758AE2 /* Build configuration list for PBXNativeTarget "P2PRacerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D6154718F3495000758AE2 /* Debug */,
+				87D6154818F3495000758AE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87D6150218F3494F00758AE2 /* Project object */;
+}
