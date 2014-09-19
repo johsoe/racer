@@ -10,10 +10,15 @@
 #import <MultipeerConnectivity/MultipeerConnectivity.h>
 #import "RAConstants.h"
 
-@interface RANetworkingManager : NSObject <MCNearbyServiceAdvertiserDelegate, MCSessionDelegate>
+@interface RANetworkingManager : NSObject <MCNearbyServiceAdvertiserDelegate, MCSessionDelegate, MCNearbyServiceBrowserDelegate, MCAdvertiserAssistantDelegate>
 
-@property (strong, nonatomic) MCPeerID *peerID;
-@property (strong, nonatomic) MCSession *session;
-@property (strong, nonatomic) MCAdvertiserAssistant *assistant;
+@property (assign, nonatomic) BOOL isHost;
+
++ (RANetworkingManager *)sharedInstance;
+- (void)start;
+- (void)stop;
+- (void)setup;
+
+- (void)sendMessage:(NSString *)message;
 
 @end

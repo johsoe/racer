@@ -9,6 +9,25 @@
 #import "RAViewController.h"
 #import "RAMyScene.h"
 
+@implementation SKScene (Unarchive)
+
++ (instancetype)unarchiveFromFile:(NSString *)file {
+    /* Retrieve scene file path from the application bundle */
+    NSString *nodePath = [[NSBundle mainBundle] pathForResource:file ofType:@"sks"];
+    /* Unarchive the file to an SKScene object */
+    NSData *data = [NSData dataWithContentsOfFile:nodePath
+                                          options:NSDataReadingMappedIfSafe
+                                            error:nil];
+    NSKeyedUnarchiver *arch = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
+    [arch setClass:self forClassName:@"SKScene"];
+    SKScene *scene = [arch decodeObjectForKey:NSKeyedArchiveRootObjectKey];
+    [arch finishDecoding];
+    
+    return scene;
+}
+
+@end
+
 @implementation RAViewController
 
 - (void)viewDidLoad
@@ -21,7 +40,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [RAMyScene sceneWithSize:skView.bounds.size];
+    RAMyScene * scene = [RAMyScene unarchiveFromFile:@"Level"];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

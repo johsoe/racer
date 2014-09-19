@@ -7,12 +7,20 @@
 //
 
 #import "RAAppDelegate.h"
+#import "RANetworkingManager.h"
 
 @implementation RAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+#if TARGET_IPHONE_SIMULATOR 
+    [RANetworkingManager sharedInstance].isHost = YES;
+#endif
+    [[RANetworkingManager sharedInstance] setup];
+    [[RANetworkingManager sharedInstance] start];
+    
     return YES;
 }
 							

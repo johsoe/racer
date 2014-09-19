@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		300195F919C9AD2900ECCF49 /* kbdclient.c in Sources */ = {isa = PBXBuildFile; fileRef = 300195F719C9AD2900ECCF49 /* kbdclient.c */; };
+		300195FC19C9AD6800ECCF49 /* RBJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 300195FB19C9AD6800ECCF49 /* RBJoystick.m */; };
+		3001960119C9CD7600ECCF49 /* Exhaust.sks in Resources */ = {isa = PBXBuildFile; fileRef = 3001960019C9CD7600ECCF49 /* Exhaust.sks */; };
+		304E269719C9CE2D00EC423D /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 304E269519C9CE2D00EC423D /* Smoke.sks */; };
+		304E269819C9CE2D00EC423D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 304E269619C9CE2D00EC423D /* spark.png */; };
+		30B145FE19C9D120001F17C2 /* Level.sks in Resources */ = {isa = PBXBuildFile; fileRef = 30B145FD19C9D120001F17C2 /* Level.sks */; };
 		87D6150E18F3494F00758AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150D18F3494F00758AE2 /* Foundation.framework */; };
 		87D6151018F3494F00758AE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150F18F3494F00758AE2 /* CoreGraphics.framework */; };
 		87D6151218F3494F00758AE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6151118F3494F00758AE2 /* UIKit.framework */; };
@@ -17,7 +23,6 @@
 		87D6152318F3494F00758AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152118F3494F00758AE2 /* Main.storyboard */; };
 		87D6152618F3494F00758AE2 /* RAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6152518F3494F00758AE2 /* RAViewController.m */; };
 		87D6152918F3494F00758AE2 /* RAMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D6152818F3494F00758AE2 /* RAMyScene.m */; };
-		87D6152B18F3494F00758AE2 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152A18F3494F00758AE2 /* Spaceship.png */; };
 		87D6152D18F3494F00758AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D6152C18F3494F00758AE2 /* Images.xcassets */; };
 		87D6153418F3495000758AE2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6153318F3495000758AE2 /* XCTest.framework */; };
 		87D6153518F3495000758AE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D6150D18F3494F00758AE2 /* Foundation.framework */; };
@@ -40,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		300195F719C9AD2900ECCF49 /* kbdclient.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kbdclient.c; sourceTree = "<group>"; };
+		300195F819C9AD2900ECCF49 /* kbdclient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbdclient.h; sourceTree = "<group>"; };
+		300195FA19C9AD6800ECCF49 /* RBJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RBJoystick.h; sourceTree = "<group>"; };
+		300195FB19C9AD6800ECCF49 /* RBJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RBJoystick.m; sourceTree = "<group>"; };
+		3001960019C9CD7600ECCF49 /* Exhaust.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Exhaust.sks; sourceTree = "<group>"; };
+		304E269519C9CE2D00EC423D /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		304E269619C9CE2D00EC423D /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		30B145FD19C9D120001F17C2 /* Level.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level.sks; sourceTree = "<group>"; };
 		87D6150A18F3494F00758AE2 /* P2PRacer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PRacer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D6150D18F3494F00758AE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		87D6150F18F3494F00758AE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +69,6 @@
 		87D6152518F3494F00758AE2 /* RAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAViewController.m; sourceTree = "<group>"; };
 		87D6152718F3494F00758AE2 /* RAMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RAMyScene.h; sourceTree = "<group>"; };
 		87D6152818F3494F00758AE2 /* RAMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RAMyScene.m; sourceTree = "<group>"; };
-		87D6152A18F3494F00758AE2 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		87D6152C18F3494F00758AE2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		87D6153218F3495000758AE2 /* P2PRacerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PRacerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87D6153318F3495000758AE2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -96,6 +108,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300195FD19C9CD3400ECCF49 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87D6152C18F3494F00758AE2 /* Images.xcassets */,
+				30B145FC19C9D108001F17C2 /* Scene */,
+				300195FF19C9CD6600ECCF49 /* Emitter */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		300195FF19C9CD6600ECCF49 /* Emitter */ = {
+			isa = PBXGroup;
+			children = (
+				3001960019C9CD7600ECCF49 /* Exhaust.sks */,
+				304E269519C9CE2D00EC423D /* Smoke.sks */,
+				304E269619C9CE2D00EC423D /* spark.png */,
+			);
+			name = Emitter;
+			sourceTree = "<group>";
+		};
+		30B145FC19C9D108001F17C2 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				30B145FD19C9D120001F17C2 /* Level.sks */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
 		87D6150118F3494F00758AE2 = {
 			isa = PBXGroup;
 			children = (
@@ -136,7 +176,7 @@
 				87D6154918F34A2100758AE2 /* Lobby */,
 				87D6151E18F3494F00758AE2 /* RAAppDelegate.h */,
 				87D6151F18F3494F00758AE2 /* RAAppDelegate.m */,
-				87D6152C18F3494F00758AE2 /* Images.xcassets */,
+				300195FD19C9CD3400ECCF49 /* Resources */,
 				87D6151618F3494F00758AE2 /* Supporting Files */,
 			);
 			path = P2PRacer;
@@ -183,6 +223,10 @@
 		87D6154D18F34A7200758AE2 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				300195FA19C9AD6800ECCF49 /* RBJoystick.h */,
+				300195FB19C9AD6800ECCF49 /* RBJoystick.m */,
+				300195F719C9AD2900ECCF49 /* kbdclient.c */,
+				300195F819C9AD2900ECCF49 /* kbdclient.h */,
 				87D6154E18F34A9000758AE2 /* RAConstants.h */,
 				87D6154F18F34A9000758AE2 /* RAConstants.m */,
 			);
@@ -206,7 +250,6 @@
 				87D6152518F3494F00758AE2 /* RAViewController.m */,
 				87D6152718F3494F00758AE2 /* RAMyScene.h */,
 				87D6152818F3494F00758AE2 /* RAMyScene.m */,
-				87D6152A18F3494F00758AE2 /* Spaceship.png */,
 			);
 			name = Main;
 			sourceTree = "<group>";
@@ -288,9 +331,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3001960119C9CD7600ECCF49 /* Exhaust.sks in Resources */,
+				304E269819C9CE2D00EC423D /* spark.png in Resources */,
 				87D6151A18F3494F00758AE2 /* InfoPlist.strings in Resources */,
+				30B145FE19C9D120001F17C2 /* Level.sks in Resources */,
 				87D6152D18F3494F00758AE2 /* Images.xcassets in Resources */,
-				87D6152B18F3494F00758AE2 /* Spaceship.png in Resources */,
+				304E269719C9CE2D00EC423D /* Smoke.sks in Resources */,
 				87D6152318F3494F00758AE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +360,9 @@
 				87D6151C18F3494F00758AE2 /* main.m in Sources */,
 				87D6152918F3494F00758AE2 /* RAMyScene.m in Sources */,
 				87D6152018F3494F00758AE2 /* RAAppDelegate.m in Sources */,
+				300195F919C9AD2900ECCF49 /* kbdclient.c in Sources */,
 				87D6155418F34AE900758AE2 /* RANetworkingManager.m in Sources */,
+				300195FC19C9AD6800ECCF49 /* RBJoystick.m in Sources */,
 				87D6154C18F34A3400758AE2 /* RALobbyVC.m in Sources */,
 				87D6152618F3494F00758AE2 /* RAViewController.m in Sources */,
 			);
@@ -523,6 +571,7 @@
 				87D6154518F3495000758AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		87D6154618F3495000758AE2 /* Build configuration list for PBXNativeTarget "P2PRacerTests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +580,7 @@
 				87D6154818F3495000758AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
